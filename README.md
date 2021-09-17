@@ -6,4 +6,4 @@ Label contains:
 -Includes math for easily checking a count.
 
 Config Zebra Printer:
-###To go###
+###To do###
