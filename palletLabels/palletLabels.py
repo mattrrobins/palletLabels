@@ -1,8 +1,11 @@
 #! python3
 
-from controller import Controller, Observable
+from palletLabels.controller import Controller, Observable
 #from views import *
 #from models import *
 
-if __name__ == '__main__':
+def main():
     con = Controller()
+
+if __name__ == '__main__':
+    main()

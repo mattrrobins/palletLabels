@@ -79,12 +79,13 @@ class QtyPage(tk.Frame):
         self.controller = controller
         co_unique = controller.obs.unique_cp
         co_partial = controller.obs.partial_cp
-
+        entry_ctn_count = []
+        entry_ctn_qty = []
         if co_unique > 0:
             label_full = ttk.Label(self, text=self.LBL_TXT[0], font=MYFONT)
             label_full.grid(row=0, column=2)
-            entry_ctn_count = []
-            entry_ctn_qty = []
+            #entry_ctn_count = []
+            #entry_ctn_qty = []
             for i in range(co_unique):
                 e_q = ttk.Entry(master=self, width=10)
                 e_q.grid(row=(i + 1), column=1)
@@ -99,10 +100,11 @@ class QtyPage(tk.Frame):
             lbl_right = ttk.Label(self, text=self.LBL_TXT[3], font=MYFONT)
             lbl_right.grid(row=(co_unique // 2), column=4)
 
+        entry_partials = []
         if co_partial > 0:
             label_partial = ttk.Label(self, text=self.LBL_TXT[4], font=MYFONT)
             label_partial.grid(row=(co_unique + 1), column=2)
-            entry_partials = []
+            #entry_partials = []
             for i in range(co_partial):
                 e = ttk.Entry(self, width=10)
                 e.grid(row=(i + co_unique + 2), column=2)
