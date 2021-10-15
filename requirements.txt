@@ -16,7 +16,6 @@ parso==0.8.2
 pexpect==4.8.0
 pickleshare==0.7.5
 Pillow==8.3.2
-pip==21.2.2
 prompt-toolkit==3.0.18
 ptyprocess==0.7.0
 Pygments==2.8.1
@@ -25,7 +24,6 @@ pyinstaller-hooks-contrib==2021.3
 python-dateutil==2.8.1
 pyzmq==22.0.3
 requests==2.26.0
-setuptools==52.0.0.post20210125
 simple-zpl2==0.3.0
 six==1.16.0
 tkinter==8.6
@@ -33,4 +31,3 @@ tornado==6.1
 traitlets==5.0.5
 urllib3==1.26.6
 wcwidth==0.2.5
-wheel==0.37.0
