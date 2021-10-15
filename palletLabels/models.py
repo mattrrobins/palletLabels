@@ -7,6 +7,7 @@ import io
 
 today = date.today()
 
+
 # Model Classes
 class Pallet:
     def __init__(self, item, ctn_pairs, partials):
@@ -102,8 +103,8 @@ class ZebraLabel(ZPLDocument):
         img = PIL.Image.open(fake_file)
         img.transpose(PIL.Image.ROTATE_90).show()
 
-    def to_printer(self):
-        prn = NetworkPrinter('10.0.0.202')
+    def to_printer(self, pr_id):
+        prn = NetworkPrinter(pr_id)
         prn.print_zpl(self)
 
     def center_bc_x(self, txt):

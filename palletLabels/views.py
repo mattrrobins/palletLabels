@@ -4,10 +4,11 @@ import tkinter as tk
 from tkinter import ttk
 
 
-
+pr_id = '10.0.0.202'
 
 # View Classes
 MYFONT = ("Verdana", 25)
+
 
 class MainView(tk.Tk):
     def __init__(self, controller):
@@ -124,7 +125,7 @@ class QtyPage(tk.Frame):
                         text='PRINT',
                         command=lambda : [self.set_obs_qty(entry_ctn_count,
                                             entry_ctn_qty, entry_partials),
-                                            controller.print_label()]
+                                            controller.print_label(pr_id)]
                             )
         button_print.grid(row=(co_partial + co_unique + 3), column=3)
 
