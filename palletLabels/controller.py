@@ -15,10 +15,10 @@ class Controller:
         zeb = ZebraLabel(pal.item, pal.total(), pal.text())
         zeb.render()
 
-    def print_label(self):
+    def print_label(self, pr_id):
         pal = Pallet(self.obs.item, self.obs.ctn_pairs, self.obs.partials)
         zeb = ZebraLabel(pal.item, pal.total(), pal.text())
-        zeb.to_printer()
+        zeb.to_printer(pr_id)
 
 
 # Observable Class
