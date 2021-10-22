@@ -21,12 +21,11 @@ To Install:
 - conda activate palletLabels
 pipenv:
 - pipenv install
+- pipenv shell
 
 
 To Run:
 python palletLabels
-
-
 
 
 

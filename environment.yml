@@ -36,4 +36,4 @@ dependencies:
     - requests==2.26.0
     - simple-zpl2==0.3.0
     - urllib3==1.26.7
-prefix: /Users/matt/anaconda3/envs/palletLabels02
+prefix: /Users/matt/anaconda3/envs/palletLabels
