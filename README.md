@@ -10,3 +10,26 @@ The resultant label will contain:
 - Total quantity (barcode scannable)
 - Auto generated date
 - The requisite math for easily checking a count on a pallet
+
+To Install:
+- Create a directory: dir
+- cd ~/path/to/dir
+- git clone https://github.com/mattrrobins/palletLabels.git
+(Ana)conda:
+- conda env create -f environment.yml
+- conda activate palletLabels
+
+To Run:
+cd ~/path/to/dir/palletLabels
+python palletLabels
+
+
+
+
+
+PyInstaller:
+- cd ~/path/to/dir/palletLabels
+- First make sure cli.py executes properly, i.e., python cli.py
+- IF there are import errors, run:
+    pip install -e palletLabels
+-

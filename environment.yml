@@ -1,4 +1,4 @@
-name: palletLabels02
+name: palletLabels
 channels:
   - defaults
   - conda-forge
