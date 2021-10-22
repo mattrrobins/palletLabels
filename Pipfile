@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 simple-zpl2 = "*"
 pillow = "*"
+palletlabels = {editable = true, path = "./palletLabels"}
 
 [dev-packages]
 

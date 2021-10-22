@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "9f69eb05d5da9d9e364f9b6dde8f0ad7558c6d0f8a00d075c86662b46468d4a4"
+            "sha256": "af0ee9e8a280f3ea05bd4fa00fc46918eb19a095d2a7c24b71822c948034a375"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -38,6 +38,10 @@
             ],
             "markers": "python_version >= '3'",
             "version": "==3.3"
+        },
+        "palletlabels": {
+            "editable": true,
+            "path": "./palletLabels"
         },
         "pillow": {
             "hashes": [
