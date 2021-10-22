@@ -1,6 +1,6 @@
 #! python3
 
-from palletLabels.controller import Controller, Observable
+from controller import Controller, Observable
 
 
 def main():

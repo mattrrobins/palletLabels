@@ -1,4 +1,4 @@
-README for palletLabels
+README for Project: palletLabels
 
 This program features a tkinter-built GUI which creates scannable barcoded label for inventory management based on the user's input.  The program previews the label, and if the printer settings have been configured to the user's Zebra printer, the program will print the label to that printer.
 
@@ -9,4 +9,4 @@ The resultant label will contain:
 - Item number (barcode scannable)
 - Total quantity (barcode scannable)
 - Auto generated date
-- The requisite math for easily checking a count on a pallet.
+- The requisite math for easily checking a count on a pallet

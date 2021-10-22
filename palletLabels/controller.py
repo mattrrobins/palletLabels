@@ -1,7 +1,7 @@
 #! python3
 
-from palletLabels.views import MainView
-from palletLabels.models import Pallet, ZebraLabel
+from views import MainView
+from models import Pallet, ZebraLabel
 
 class Controller:
     def __init__(self):
