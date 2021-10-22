@@ -1,0 +1,39 @@
+name: palletLabels02
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - ca-certificates=2021.9.30=hecd8cb5_1
+  - certifi=2021.10.8=py38hecd8cb5_0
+  - freetype=2.10.4=ha233b18_0
+  - giflib=5.2.1=haf1e3a3_0
+  - jpeg=9d=h9ed2024_0
+  - lcms2=2.12=hf1fd2bf_0
+  - libcxx=12.0.0=h2f01273_0
+  - libffi=3.3=hb1e8313_2
+  - libpng=1.6.37=ha441bb4_0
+  - libtiff=4.2.0=h87d7836_0
+  - libwebp=1.2.0=hacca55c_0
+  - libwebp-base=1.2.0=h9ed2024_0
+  - lz4-c=1.9.3=h23ab428_1
+  - ncurses=6.2=h0a44026_1
+  - olefile=0.46=pyhd3eb1b0_0
+  - openssl=1.1.1l=h9ed2024_0
+  - pillow=8.4.0=py38h98e4679_0
+  - pip=21.2.4=py38hecd8cb5_0
+  - python=3.8.12=h88f2d9e_0
+  - readline=8.1=h9ed2024_0
+  - setuptools=58.0.4=py38hecd8cb5_0
+  - sqlite=3.36.0=hce871da_0
+  - tk=8.6.11=h7bc2e8c_0
+  - wheel=0.37.0=pyhd3eb1b0_1
+  - xz=5.2.5=h1de35cc_0
+  - zlib=1.2.11=h1de35cc_3
+  - zstd=1.4.9=h322a384_0
+  - pip:
+    - charset-normalizer==2.0.7
+    - idna==3.3
+    - requests==2.26.0
+    - simple-zpl2==0.3.0
+    - urllib3==1.26.7
+prefix: /Users/matt/anaconda3/envs/palletLabels02
