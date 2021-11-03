@@ -16,22 +16,24 @@ To Install:
 - cd ~/path/to/dir
 - git clone https://github.com/mattrrobins/palletLabels.git
 - cd ~/path/to/dir/palletLabels
+
 (Ana)conda:
 - conda env create -f environment.yml
 - conda activate palletLabels
+
 pipenv:
 - pipenv install
 - pipenv shell
 
-
 To Run:
-python palletLabels
-
-
+- cd ~/path/to/dir/palletLabels
+- python palletLabels
 
 PyInstaller:
 - cd ~/path/to/dir/palletLabels
 - First make sure cli.py executes properly, i.e., python cli.py
 - IF there are import errors, run:
     pip(env) install -e palletLabels
--
+
+- pipenv install pyinstaller
+- pyinstaller cli.py --onefile --name PalLabels -w
